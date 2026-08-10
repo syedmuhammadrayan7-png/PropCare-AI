@@ -6,7 +6,7 @@ const API_BASE_URL =
     : "http://127.0.0.1:8000";
 async function request<T>(path: string, init: RequestInit = {}, role?: Role): Promise<T> {
   const session = role ? getSession(role) : null;
-  const response = await fetch(`${BASE}${path}`, { cache: "no-store", ...init, headers: { "Content-Type": "application/json", "Cache-Control": "no-cache, no-store, max-age=0", ...(session?.token ? { Authorization: `Bearer ${session.token}` } : {}), ...init.headers } });
+  const response = await fetch(`${API_BASE_URL}${path}`, { cache: "no-store", ...init, headers: { "Content-Type": "application/json", "Cache-Control": "no-cache, no-store, max-age=0", ...(session?.token ? { Authorization: `Bearer ${session.token}` } : {}), ...init.headers } });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.detail || "Unable to reach PropCare.");
   return data;
