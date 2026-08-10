@@ -1,6 +1,9 @@
 import { getSession, type DemoSession, type Role } from "@/lib/auth";
 
-const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
+const API_BASE_URL =
+  process.env.NODE_ENV === "production"
+    ? ""
+    : "http://127.0.0.1:8000";
 async function request<T>(path: string, init: RequestInit = {}, role?: Role): Promise<T> {
   const session = role ? getSession(role) : null;
   const response = await fetch(`${BASE}${path}`, { cache: "no-store", ...init, headers: { "Content-Type": "application/json", "Cache-Control": "no-cache, no-store, max-age=0", ...(session?.token ? { Authorization: `Bearer ${session.token}` } : {}), ...init.headers } });
