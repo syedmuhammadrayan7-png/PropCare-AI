@@ -1,0 +1,6 @@
+[
+  {"tenant_id":"T-1001","billing_month":"2026-08","amount":72000.0,"payment_status":"paid","due_date":"2026-08-05","paid_at":"2026-08-02"},
+  {"tenant_id":"T-1002","billing_month":"2026-08","amount":58000.0,"payment_status":"overdue","due_date":"2026-08-05","paid_at":null},
+  {"tenant_id":"T-1003","billing_month":"2026-08","amount":95000.0,"payment_status":"paid","due_date":"2026-08-05","paid_at":"2026-08-04"},
+  {"tenant_id":"T-1004","billing_month":"2026-08","amount":88000.0,"payment_status":"due","due_date":"2026-08-15","paid_at":null}
+]

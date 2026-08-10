@@ -1,0 +1,6 @@
+[
+  {"tenant_id":"T-1001","name":"Ayesha Khan","email":"ayesha.khan@demo.propcare.pk","phone":"+92-300-555-0101","unit_id":"U-MH-B-804","lease_status":"active","move_in_date":"2024-09-01"},
+  {"tenant_id":"T-1002","name":"Hamza Qureshi","email":"hamza.qureshi@demo.propcare.pk","phone":"+92-300-555-0102","unit_id":"U-LV-A-506","lease_status":"active","move_in_date":"2023-06-15"},
+  {"tenant_id":"T-1003","name":"Hira Mahmood","email":"hira.mahmood@demo.propcare.pk","phone":"+92-300-555-0103","unit_id":"U-GR-C-302","lease_status":"active","move_in_date":"2025-01-10"},
+  {"tenant_id":"T-1004","name":"Zain Raza","email":"zain.raza@demo.propcare.pk","phone":"+92-300-555-0104","unit_id":"U-CC-A-210","lease_status":"active","move_in_date":"2024-02-01"}
+]

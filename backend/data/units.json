@@ -1,0 +1,7 @@
+[
+  {"unit_id":"U-MH-B-804","property_name":"Margalla Heights","building":"Tower B","floor":8,"unit_number":"804","property_type":"Apartment","location":"F-11, Islamabad","status":"occupied"},
+  {"unit_id":"U-LV-A-506","property_name":"Lake View Residences","building":"Tower A","floor":5,"unit_number":"506","property_type":"Apartment","location":"Bahria Town, Rawalpindi","status":"occupied"},
+  {"unit_id":"U-GR-C-302","property_name":"Gulberg Residency","building":"Tower C","floor":3,"unit_number":"302","property_type":"Serviced apartment","location":"Gulberg III, Lahore","status":"occupied"},
+  {"unit_id":"U-CC-A-210","property_name":"Clifton Crest","building":"Tower A","floor":2,"unit_number":"210","property_type":"Apartment","location":"Clifton, Karachi","status":"occupied"},
+  {"unit_id":"U-BH-D-1106","property_name":"Bahria Heights","building":"Tower D","floor":11,"unit_number":"1106","property_type":"Apartment","location":"Bahria Town, Islamabad","status":"vacant"}
+]

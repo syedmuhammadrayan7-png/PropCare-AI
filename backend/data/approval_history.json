@@ -1,0 +1,62 @@
+[
+  {
+    "approval_id": "approval-05ef4fa7-3252-40a9-857e-c39fdf639fdc",
+    "thread_id": "05ef4fa7-3252-40a9-857e-c39fdf639fdc",
+    "tenant_id": "T-1001",
+    "maintenance_request_id": "MR-24026",
+    "proposed_credit": 5000,
+    "approved_credit": 5000,
+    "decision": "approved",
+    "status": "approved",
+    "reason": "The tenant's heater failure is currently being addressed under an open maintenance request MR-24026. Compensation request is acknowledged but requires approval. No credit proposed automatically.",
+    "maintenance_context": {
+      "request_id": "MR-24026",
+      "category": "HVAC",
+      "status": "in_progress",
+      "priority": "medium",
+      "assigned_team": "Electrical Services"
+    },
+    "created_at": "2026-08-10T06:10:03",
+    "resolved_at": "2026-08-10T06:10:48"
+  },
+  {
+    "approval_id": "approval-789998c1-fc51-4491-9b9a-53869f04a517",
+    "thread_id": "789998c1-fc51-4491-9b9a-53869f04a517",
+    "tenant_id": "T-1001",
+    "maintenance_request_id": "MR-24026",
+    "proposed_credit": 5000,
+    "approved_credit": 5000,
+    "decision": "approved",
+    "status": "approved",
+    "reason": "Tenant reported repeated heater failure and requested compensation. Recent maintenance request for heater failure was completed. Tenant's rent is paid. No automatic credit recommended without property-manager approval. Next step is to confirm if heater issue persists and create a new maintenance request if needed, and to have property management review compensation request.",
+    "maintenance_context": {
+      "request_id": "MR-24026",
+      "category": "HVAC",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_team": "Electrical Services"
+    },
+    "created_at": "2026-08-10T06:56:39",
+    "resolved_at": "2026-08-10T06:57:40"
+  },
+  {
+    "approval_id": "approval-65d019f5-bff1-4012-b37e-a5b47d79f602",
+    "thread_id": "65d019f5-bff1-4012-b37e-a5b47d79f602",
+    "tenant_id": "T-1001",
+    "maintenance_request_id": "MR-24026",
+    "proposed_credit": 5000,
+    "approved_credit": 5000,
+    "decision": "approved",
+    "status": "approved",
+    "reason": "The heater failure was addressed and the maintenance request MR-24026 is completed. No open maintenance requests exist for this issue. Compensation request is acknowledged but no automatic credit is approved; property-manager approval is required.",
+    "maintenance_context": {
+      "request_id": "MR-24026",
+      "category": "HVAC",
+      "status": "completed",
+      "priority": "medium",
+      "assigned_team": "Electrical Services"
+    },
+    "created_at": "2026-08-10T07:02:54",
+    "resolved_at": "2026-08-10T07:03:09"
+  }
+]

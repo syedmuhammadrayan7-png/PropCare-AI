@@ -1,0 +1,105 @@
+[
+  {
+    "request_id": "MR-24018",
+    "tenant_id": "T-1001",
+    "unit_id": "U-MH-B-804",
+    "category": "HVAC",
+    "description": "Bedroom AC is running but no longer cooling.",
+    "priority": "high",
+    "status": "completed",
+    "created_at": "2026-08-03T09:30:00",
+    "assigned_team": "Climate Systems"
+  },
+  {
+    "request_id": "MR-24012",
+    "tenant_id": "T-1001",
+    "unit_id": "U-MH-B-804",
+    "category": "HVAC",
+    "description": "Living room AC had weak airflow; filter was replaced.",
+    "priority": "medium",
+    "status": "resolved",
+    "created_at": "2026-07-15T11:15:00",
+    "assigned_team": "Climate Systems"
+  },
+  {
+    "request_id": "MR-24019",
+    "tenant_id": "T-1002",
+    "unit_id": "U-LV-A-506",
+    "category": "Plumbing",
+    "description": "Kitchen sink drainage issue resolved after trap cleaning.",
+    "priority": "medium",
+    "status": "resolved",
+    "created_at": "2026-07-29T14:20:00",
+    "assigned_team": "Plumbing Response"
+  },
+  {
+    "request_id": "MR-24021",
+    "tenant_id": "T-1003",
+    "unit_id": "U-GR-C-302",
+    "category": "Plumbing",
+    "description": "Water leaking from ceiling near bathroom; water supply isolated.",
+    "priority": "urgent",
+    "status": "in_progress",
+    "created_at": "2026-08-09T22:10:00",
+    "assigned_team": "Emergency Response"
+  },
+  {
+    "request_id": "MR-24023",
+    "tenant_id": "T-1004",
+    "unit_id": "U-CC-A-210",
+    "category": "Electrical",
+    "description": "Two hallway lights are not switching on.",
+    "priority": "low",
+    "status": "open",
+    "created_at": "2026-08-10T08:45:00",
+    "assigned_team": "Electrical Services"
+  },
+  {
+    "request_id": "MR-24026",
+    "tenant_id": "T-1001",
+    "unit_id": "U-MH-B-804",
+    "category": "HVAC",
+    "description": "Maintenance:  My heater is not working properly.",
+    "priority": "medium",
+    "status": "completed",
+    "created_at": "2026-08-10T03:43:34",
+    "assigned_team": "Electrical Services",
+    "updated_at": "2026-08-10T06:39:17"
+  },
+  {
+    "request_id": "MR-24027",
+    "tenant_id": "T-1001",
+    "unit_id": "U-MH-B-804",
+    "category": "Plumbing",
+    "description": "Leaking bathroom sink repair",
+    "priority": "medium",
+    "status": "completed",
+    "created_at": "2026-08-10T06:46:09",
+    "updated_at": "2026-08-10T06:51:19",
+    "assigned_team": "General Maintenance"
+  },
+  {
+    "request_id": "MR-24028",
+    "tenant_id": "T-1001",
+    "unit_id": "U-MH-B-804",
+    "category": "Plumbing",
+    "description": "Kitchen tap leaking badly",
+    "priority": "high",
+    "status": "completed",
+    "created_at": "2026-08-10T06:53:24",
+    "updated_at": "2026-08-10T06:54:44",
+    "assigned_team": "Awaiting Assignment"
+  },
+  {
+    "request_id": "MR-24029",
+    "tenant_id": "T-1001",
+    "unit_id": "U-MH-B-804",
+    "category": "Appliance",
+    "description": "Water cooler is not working.",
+    "priority": "medium",
+    "status": "awaiting_assignment",
+    "created_at": "2026-08-10T08:00:15",
+    "updated_at": "2026-08-10T08:00:15",
+    "assigned_team": "Awaiting Assignment"
+  }
+]
